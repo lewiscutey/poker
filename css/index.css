@@ -1,0 +1,101 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(../images/back.jpg) no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.scene{
+	width: 1000px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+}
+.pai{
+	width: 118px;
+	height: 166px;
+	background-size: 100%;   /*让背景图片成比例100%显示*/
+	border: 2px solid #ccc;
+	position: absolute;
+	top:120px;
+	left: 438px;
+	box-shadow: 0 0 3px yellow;
+	border-radius: 5px;
+	opacity: 0;
+	z-index: 0;
+}
+.btn{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	top: 10px;
+	left: -150px;
+}
+.btn .start,.btn .startrep,.btn .end{
+	width: 150px;
+	height: 57px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.btnRight{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 15px;
+	right: -140px;
+}
+.btnRight .grade,.btnRight .time,.btnRight .pair{
+	width: 200px;
+	height: 59px;
+	position: relative;
+}
+.btnRight .grade>span,.btnRight .time>span,.btnRight .pair>span{
+	width: 100px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 105px;
+	font-size: 20px;
+	line-height: 28px;
+	color: #fff;
+}
+.move{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 30px;
+	z-index: 99999;
+}
+.move .moveleft, .move .moveRight{
+	width: 150px;
+	height: 53px;
+	margin-bottom: 10px;
+	z-index: 0;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
